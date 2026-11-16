@@ -1,0 +1,13 @@
+{
+  "port": 4780,
+  "usageIntervalSec": 60,
+  "extraModels": [
+    {
+      "key": "nova",
+      "label": "Nova",
+      "match": "nova",
+      "design": "generic",
+      "style": { "accent": 41, "accent2": 31, "variant": 2 }
+    }
+  ]
+}

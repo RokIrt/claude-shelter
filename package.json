@@ -1,0 +1,18 @@
+{
+  "name": "token-shelter",
+  "version": "0.1.0",
+  "description": "A retro pixel-art shelter where your AI agents, models and usage limits come alive.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/RokIrt/claude-shelter.git" },
+  "engines": { "node": ">=20" },
+  "bin": { "token-shelter": "bin/shelter.mjs" },
+  "scripts": {
+    "start": "node server.mjs",
+    "sim": "node server.mjs --sim tour",
+    "tui": "node bin/shelter-tui.mjs",
+    "test": "node --test test/*.test.mjs",
+    "snap": "node tools/snap.mjs"
+  }
+}
